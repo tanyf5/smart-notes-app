@@ -1,19 +1,86 @@
 <header class="header">
-  <div class="container">
-    <nav class="nav">
-      <a class="nav-logo" href="./index.html" aria-label="Site logo">
-        <svg class="nav-logo-icon" width="100" height="30">
-          <use href="{=$icon-path}"></use>
+  <div class="header-container">
+    <a class="logo-wrapper"
+      href="./index.html"
+      tabindex="0"
+      aria-label="Homepage">
+      <div class="logo-container">
+        <svg class="logo-icon" width="25px" height="25px">
+          <use href="./img/svg/icons.svg#icon-logo-icon"></use>
         </svg>
-      </a>
-      <ul class="nav-list">
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-act}" href="./page-2.html">Page 2</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-curr}" href="./page-3.html">Page 3</a>
-        </li>
-      </ul>
+      </div>
+      <p class="logo-text">SmartNotes</p>
+    </a>
+    <nav class="nav-menu">
+      <a class="menu-item" href="#benefits">Features</a>
+      <a class="menu-item" href="#pricing">Pricing</a>
+      <a class="menu-item" href="#faq">FAQ</a>
     </nav>
+    <button class="get-started-bnt">Get started
+      <svg class="get-started-icon">
+        <use href="./img/svg/icons.svg#icon-arrow-icon" width="24px" height="24px"></use>
+      </svg>
+    </button>
+    <button class="burger-btn">
+      <svg class="burger-icon" width="32px" height="18px">
+        <use href="./img/svg/icons.svg#icon-burger"></use>
+      </svg>
+    </button>
   </div>
+
+
+<!-- Mobile menu -->
+
+
+  <div class="mobile-menu">
+    <div class="mob-menu-top">
+      <a class="logo-wrapper"
+      href="./index.html"
+      tabindex="0"
+      aria-label="Homepage">
+      <div class="logo-container">
+        <svg class="logo-icon" width="25px" height="25px">
+          <use href="./img/svg/icons.svg#icon-logo-icon"></use>
+        </svg>
+      </div>
+      <p class="logo-text">SmartNotes</p>
+    </a>
+    <button class="close-btn">
+      <svg class="close-icon">
+        <use href="./img/svg/icons.svg#icon-close-btn-icon" width="24px" height="24px"></use>
+      </svg>
+    </button>
+    </div>
+    <div class="mob-menu-bottom">
+      <nav class="mob-menu-list">
+        <a class="mob-menu-item" href="#benefits">Features</a>
+        <a class="mob-menu-item" href="#pricing">Pricing</a>
+        <a class="mob-menu-item" href="#faq">FAQs</a>
+        <a class="mob-menu-item" href="#signup">Support</a>
+      </nav>
+      <div class="mob-socials-list">
+          <a class="mob-socials-item" href="https://facebook.com/">
+            <svg class="mob-socials-icon">
+              <use href="./img/svg/icons.svg#icon-facebook-icon" width="20px" height="20px"></use>
+            </svg>
+          </a>
+          <a class="mob-socials-item" href="https://linkedin.com/">
+            <svg class="mob-socials-icon">
+              <use href="./img/svg/icons.svg#icon-linkedin-icon" width="20px" height="20px"></use>
+            </svg>
+          </a>
+          <a class="mob-socials-item" href="https://twitter.com/">
+            <svg class="mob-socials-icon">
+              <use href="./img/svg/icons.svg#icon-twitter-icon" width="20px" height="20px"></use>
+            </svg>
+          </a>
+          <a class="mob-socials-item" href="https://youtube.com/">
+            <svg class="mob-socials-icon">
+              <use href="./img/svg/icons.svg#icon-youtube-icon" width="20px" height="20px"></use>
+            </svg>
+          </a>
+      </div>
+    </div>
+  </div>
+
 </header>
