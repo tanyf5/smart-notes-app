@@ -49,7 +49,6 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    transition: background-color 0.1s cubic-bezier(0.42, 0, 1, 1);
 }
 
 .play-icon {
@@ -59,16 +58,10 @@
     transition: transform 0.1s cubic-bezier(0.42, 0, 1, 1), width 0.1s cubic-bezier(0.42, 0, 1, 1), height 0.1s cubic-bezier(0.42, 0, 1, 1);
 }
 
-.play-btn:hover,
-.play-btn:active,
-.play-btn:focus {
-    background-color: rgba(247, 247, 247, 0.75);
-}
-
 .play-btn:hover .play-icon,
 .play-btn:active .play-icon,
 .play-btn:focus .play-icon {
-    transform: scale(1.5);
+    transform: scale(1.7);
 }
 
 

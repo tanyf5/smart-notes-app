@@ -115,13 +115,13 @@ input:checked + .slider:before {
     align-items: center;
     justify-content: center;
     padding: 8px 16px;
-    transition: color 0.1s cubic-bezier(0.42, 0, 1, 1);
+    transition: transform 0.1s cubic-bezier(0.42, 0, 1, 1), width 0.1s cubic-bezier(0.42, 0, 1, 1), height 0.1s cubic-bezier(0.42, 0, 1, 1);
 }
 
 .save:hover,
 .save:active,
 .save:focus {
-    color: #EFECE6;
+    transform: scale(1.1);
 }
 
 .pricing-list {
@@ -207,15 +207,14 @@ input:checked + .slider:before {
     justify-content: center;
     gap: 8px;
     padding: 16px 50px;
-    transition: background-color 0.1s cubic-bezier(0.42, 0, 1, 1),
-    color 0.1s cubic-bezier(0.42, 0, 1, 1);
+    transition: transform 0.1s cubic-bezier(0.42, 0, 1, 1), width 0.1s cubic-bezier(0.42, 0, 1, 1), height 0.1s cubic-bezier(0.42, 0, 1, 1);
+
 }
 
 .pricing-start-btn-one:hover,
 .pricing-start-btn-one:active,
 .pricing-start-btn-one:focus {
-    background-color: #048C80;
-    color: #EFECE6;
+    transform: scale(1.07);
 }
 
 .hero-signup-icon-one {
@@ -224,15 +223,6 @@ input:checked + .slider:before {
     fill: #048C80;
     border: 1px solid #048C80;
     border-radius: 5px;
-    transition: fill 0.1s cubic-bezier(0.42, 0, 1, 1),
-    border-color 0.1s cubic-bezier(0.42, 0, 1, 1);
-}
-
-.pricing-start-btn-one:hover .hero-signup-icon-one,
-.pricing-start-btn-one:active .hero-signup-icon-one,
-.pricing-start-btn-one:focus .hero-signup-icon-one {
-    fill: #EFECE6;
-    border-color: #EFECE6;
 }
 
 .no-card-par {
@@ -283,20 +273,13 @@ input:checked + .slider:before {
     justify-content: center;
     gap: 8px;
     padding: 16px 50px;
-    transition: color 0.1s cubic-bezier(0.42, 0, 1, 1);
+    transition: transform 0.1s cubic-bezier(0.42, 0, 1, 1), width 0.1s cubic-bezier(0.42, 0, 1, 1), height 0.1s cubic-bezier(0.42, 0, 1, 1);
 }
 
 .pricing-start-btn-two:hover,
 .pricing-start-btn-two:active,
 .pricing-start-btn-two:focus {
-    color: #EFECE6;
-}
-
-.pricing-start-btn-two:hover .hero-signup-icon,
-.pricing-start-btn-two:active .hero-signup-icon,
-.pricing-start-btn-two:focus .hero-signup-icon {
-    fill: #EFECE6;
-    border-color: #EFECE6;
+    transform: scale(1.07);
 }
 
 
