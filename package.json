@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "devDependencies": {
+    "@types/validator": "^13.12.2",
     "autoprefixer": "^10.4.20",
     "glob": "^11.0.0",
     "postcss": "^8.4.49",

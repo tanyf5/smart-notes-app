@@ -69,14 +69,7 @@
 .faq-item:hover,
 .faq-item:active,
 .faq-item:focus {
-    border: 1px solid #EFECE6;
-}
-
-.faq-item:hover .hero-signup-icon-one,
-.faq-item:active .hero-signup-icon-one,
-.faq-item:focus .hero-signup-icon-one {
-    fill: #EFECE6;
-    border-color: #EFECE6;
+    border: 1px solid #18d4c4;
 }
 
 .faq-question {
