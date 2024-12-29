@@ -24,6 +24,8 @@
     gap: 10px;
     align-items: center;
     max-width: 215px;
+    transition: transform 0.1s cubic-bezier(0.42, 0, 1, 1), width 0.1s cubic-bezier(0.42, 0, 1, 1), height 0.1s cubic-bezier(0.42, 0, 1, 1);
+
 }
   
 .footer-logo-container {
@@ -46,13 +48,12 @@
     font-weight: 600;
     font-size: 30px;
     letter-spacing: -0.02em;
-    transition: color 0.1s cubic-bezier(0.42, 0, 1, 1);
 }
   
-.footer-logo-wrapper:hover .footer-logo-text,
-.footer-logo-wrapper:focus .footer-logo-text,
-.footer-logo-wrapper:active .footer-logo-text {
-    color: #048C80;
+.footer-logo-wrapper:hover,
+.footer-logo-wrapper:focus,
+.footer-logo-wrapper:active {
+    transform: scale(1.07);
 }
 
 .footer-sbscrb-form {
@@ -94,6 +95,13 @@
     position: absolute;
     right: 71px;
     bottom: 15px;
+    transition: transform 0.1s cubic-bezier(0.42, 0, 1, 1), width 0.1s cubic-bezier(0.42, 0, 1, 1), height 0.1s cubic-bezier(0.42, 0, 1, 1);
+}
+
+.footer-form-btn:hover,
+.footer-form-btn:active,
+.footer-form-btn:focus {
+    transform: scale(1.2);
 }
 
 .hero-signup-icon-footer {
@@ -102,15 +110,6 @@
     fill: #048C80;
     border: 1px solid #048C80;
     border-radius: 5px;
-    transition: fill 0.1s cubic-bezier(0.42, 0, 1, 1),
-    border-color 0.1s cubic-bezier(0.42, 0, 1, 1);
-}
-
-.footer-form-btn:hover .hero-signup-icon-footer,
-.footer-form-btn:active .hero-signup-icon-footer,
-.footer-form-btn:focus .hero-signup-icon-footer {
-    fill: #333333;
-    border-color: #333333;
 }
 
 .footer-top {
@@ -149,13 +148,13 @@
     font-weight: 300;
     font-size: 14px;
     color: #BABABA;
-    transition: color 0.1s cubic-bezier(0.42, 0, 1, 1);
+    transition: transform 0.1s cubic-bezier(0.42, 0, 1, 1), width 0.1s cubic-bezier(0.42, 0, 1, 1), height 0.1s cubic-bezier(0.42, 0, 1, 1);
 }
 
 .footer-menu-item:hover,
 .footer-menu-item:active,
 .footer-menu-item:focus {
-    color: #048C80;
+    transform: scale(1.1);
 }
 
 .footer-bottom-first {
